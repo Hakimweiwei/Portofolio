@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M. Imam Hakim | Frontend Developer</title>
+    <meta name="description" content="Portofolio profesional M. Imam Hakim, seorang Frontend Developer dari Universitas Amikom Yogyakarta. Menampilkan proyek dan keahlian dalam pengembangan web modern.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="custom-cursor"></div>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <header class="main-header glass-effect">
+        <div class="logo">MIH.</div>
+        <nav class="main-nav">
+            <a href="#about">Tentang</a>
+            <a href="#projects">Proyek</a>
+            <a href="#skills">Keahlian</a>
+            <a href="#contact" class="cta-button">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span>M. Imam Hakim</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span>Frontend Developer &</span>
+                    <span>Digital Architect</span>
+                </h2>
+                <p class="hero-description">Mahasiswa Informatika di Universitas Amikom Yogyakarta, menciptakan pengalaman web yang imersif, fungsional, dan menawan secara visual.</p>
+                <a href="#projects" class="hero-button">Lihat Karya Saya</a>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2 class="section-title"><span>Tentang Saya</span></h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>Halo! Saya Imam, seorang pengembang frontend dengan hasrat untuk membangun antarmuka pengguna yang hidup dan interaktif. Bagi saya, kode bukan hanya tentang logika, tetapi juga tentang seni dan pengalaman.</p>
+                    <p>Saya terpesona oleh bagaimana animasi yang dieksekusi dengan baik dapat mengubah situs web statis menjadi sebuah cerita yang dinamis. Saat ini saya sedang mendalami dunia WebGL dan animasi performa tinggi untuk mendorong batas-batas kemungkinan di dalam browser.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2 class="section-title"><span>Proyek Unggulan</span></h2>
+            <div class="projects-grid">
+                <div class="project-card glass-effect">
+                    <div class="project-image" style="background-image: url('assets/project1.jpg');"></div>
+                    <div class="project-info">
+                        <h3>Nama Proyek Keren</h3>
+                        <p>Deskripsi singkat tentang proyek ini, teknologi yang digunakan, dan tantangan yang dihadapi.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>GSAP</span><span>SCSS</span>
+                        </div>
+                        <a href="#" class="project-link" target="_blank">Lihat Langsung &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card glass-effect">
+                    <div class="project-image" style="background-image: url('assets/project2.jpg');"></div>
+                    <div class="project-info">
+                        <h3>Aplikasi Web Interaktif</h3>
+                        <p>Deskripsi singkat tentang proyek ini, teknologi yang digunakan, dan tantangan yang dihadapi.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span><span>Three.js</span><span>API</span>
+                        </div>
+                        <a href="#" class="project-link" target="_blank">Lihat Langsung &rarr;</a>
+                    </div>
+                </div>
+                 </div>
+        </section>
+
+        <section id="skills" class="content-section">
+            <h2 class="section-title"><span>Keahlian & Teknologi</span></h2>
+            <div class="skills-container">
+                <div class="skill-item">JavaScript (ES6+)</div>
+                <div class="skill-item">HTML5 & CSS3</div>
+                <div class="skill-item">React.js</div>
+                <div class="skill-item">Vue.js</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">GSAP</div>
+                <div class="skill-item">Three.js / WebGL</div>
+                <div class="skill-item">SCSS / SASS</div>
+                <div class="skill-item">Git & GitHub</div>
+                <div class="skill-item">Figma</div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+             <h2 class="section-title"><span>Mari Terhubung</span></h2>
+             <p class="contact-subtitle">Saya selalu terbuka untuk diskusi, kolaborasi, atau sekadar menyapa. <br>Jangan ragu untuk menghubungi saya.</p>
+             <a href="mailto:email.anda@example.com" class="contact-button">kirim.email@example.com</a>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 - Dibuat dengan 💜 oleh M. Imam Hakim</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <script src="https://unpkg.com/three@0.128.0/examples/js/loaders/FontLoader.js"></script>
+    <script src="https://unpkg.com/three@0.128.0/examples/js/geometries/TextGeometry.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
